@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta autor="Bruno Rocha">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Iniciando com bootstrap</title>
+    <style>
+        .unlink{
+            text-decoration: none;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container m-auto" width="100%">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/bootstrap-5.svg" class="img-fluid" width="200px" alt="">
+                </a>
+                <button class="navbar-toggler" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- <ul class="navbar-nav me-auto mb-5 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTATO</a>
+                        </li>
+                    </ul> -->
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="row mt-5 mb-5">
+            <div class="col-md-6 m-auto">
+                <div class="fluid text-left pt-5">
+                    <h2>Formulario de Login</h2>
+                    <img src="assets/bt-icons.png" class="img-fluid m-auto" alt="bootstrap">
+                </div>
+            </div>
+            <div class="col-md-6 m-auto">
+                <div class="card">
+                    <h2 class="mt-5 mb-4 text-center">Informe aqui seu usuário e senha</h2>
+                    <form class="p-5">
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control mb-4" id="email" placeholder="Não precisa digitar e-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="senha">Senha</label>
+                            <input type="password" class="form-control mb-4" id="senha" placeholder="Não precisa digitar senha">
+                        </div>
+                        <a href="dashboard.html" target="_self"><button type="button" class="btn btn-success unlink">Acessar</button></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
